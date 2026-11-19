@@ -1,164 +1,163 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Academic homepage of Your Name. Research, publications, projects, and academic activities.">
-  <title>Your Name | Academic Homepage</title>
-  <link rel="stylesheet" href="assets/css/style.css">
-  <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>张明 - 个人主页</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <header class="mobile-header">
-    <a class="mobile-brand" href="#">Your Name</a>
-    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
-  </header>
+<div class="container">
 
-  <div class="page-shell">
-    <aside class="sidebar" id="sidebar">
-      <div class="profile">
-        <img class="portrait" src="assets/images/profile-placeholder.svg" alt="Profile photo">
-        <h1>Your Name</h1>
-        <p class="role">Ph.D. Student / Researcher</p>
-        <p class="affiliation">School / Department<br>University Name</p>
-      </div>
+    <!-- 个人基本信息 -->
+    <header class="header">
+        <div class="profile">
+            <div class="avatar">
+                <img src="https://placehold.co/240x300?text=Profile"
+                     alt="个人照片">
+            </div>
 
-      <nav class="side-nav" aria-label="Main navigation">
-        <a href="#about" class="active">About</a>
-        <a href="#research">Research</a>
-        <a href="#publications">Publications</a>
-        <a href="#projects">Projects</a>
-        <a href="#experience">Experience</a>
-        <a href="#awards">Awards</a>
-        <a href="#contact">Contact</a>
-      </nav>
+            <div class="profile-info">
+                <h1>张明</h1>
+                <p class="english-name">Ming Zhang</p>
+                <p>博士研究生</p>
+                <p>计算机科学与技术学院 · XX大学</p>
+                <p>研究方向：图像质量评价、人工智能生成内容</p>
 
-      <div class="social-links">
-        <a href="mailto:your.email@example.com">Email</a>
-        <a href="https://scholar.google.com/" target="_blank" rel="noopener">Google Scholar</a>
-        <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
-        <a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
-      </div>
-      <p class="sidebar-note">Last updated: <span id="last-updated">November 2026</span></p>
-    </aside>
+                <div class="contact">
+                    <a href="mailto:example@university.edu.cn">
+                        Email
+                    </a>
+                    <a href="https://scholar.google.com/">
+                        Google Scholar
+                    </a>
+                    <a href="https://github.com/liudodo021">
+                        GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
 
-    <main class="content">
-      <section id="about" class="section">
-        <p class="eyebrow">WELCOME</p>
-        <h2>About Me</h2>
+    <!-- 个人简介 -->
+    <section>
+        <h2>个人简介</h2>
         <p>
-          I am a <strong>researcher</strong> at <strong>University / Institution</strong>.
-          My research focuses on image quality assessment, AI-generated content analysis,
-          and multimodal learning. I am interested in developing reliable and effective
-          computational methods for understanding visual quality.
+            张明，XX大学计算机科学与技术学院博士研究生。
+            主要从事图像质量评价、人工智能生成图像质量评价及
+            多模态学习等方面的研究。
         </p>
         <p>
-          This website presents my research interests, publications, projects, and academic
-          activities. Please feel free to contact me if you are interested in collaboration.
+            近年来，围绕视觉感知质量建模、深度学习及视觉语言
+            特征表示开展相关研究，致力于探索高效、可靠的
+            图像质量评价方法。
         </p>
-        <div class="notice">
-          <strong>News:</strong> [Month Year] — Add your latest publication, award, or research update here.
-        </div>
-      </section>
+    </section>
 
-      <section id="research" class="section">
-        <h2>Research Interests</h2>
-        <ul class="interest-list">
-          <li><strong>Image Quality Assessment:</strong> No-reference image quality assessment and perceptual modeling.</li>
-          <li><strong>AI-Generated Image Quality Assessment:</strong> Quality and alignment assessment of AI-generated images.</li>
-          <li><strong>Multimodal Learning:</strong> Vision-language representation and cross-modal feature learning.</li>
-          <li><strong>Visual Representation Learning:</strong> Feature learning, state-space models, and efficient architectures.</li>
+    <!-- 研究方向 -->
+    <section>
+        <h2>研究方向</h2>
+        <ul>
+            <li>图像质量评价（Image Quality Assessment）</li>
+            <li>AI生成图像质量评价（AI-Generated Image Quality Assessment）</li>
+            <li>多模态学习（Multimodal Learning）</li>
+            <li>视觉表征学习（Visual Representation Learning）</li>
         </ul>
-      </section>
+    </section>
 
-      <section id="publications" class="section">
-        <h2>Selected Publications</h2>
-        <p class="section-intro">* denotes equal contribution. Replace the sample entries below with your publications.</p>
-
-        <article class="publication">
-          <div class="pub-year">2026</div>
-          <div class="pub-body">
-            <h3>Paper Title Goes Here</h3>
-            <p class="authors"><strong>Your Name</strong>, Co-author One, Co-author Two</p>
-            <p class="venue"><em>Journal / Conference Name</em>, 2026.</p>
-            <p class="pub-links">
-              <a href="#" aria-label="Paper PDF">PDF</a>
-              <a href="#" aria-label="Project page">Project</a>
-              <a href="#" aria-label="Source code">Code</a>
-              <a href="#" aria-label="BibTeX">BibTeX</a>
-            </p>
-            <p class="abstract">A concise description of the problem, proposed method, and main findings. Keep this to two or three sentences.</p>
-          </div>
-        </article>
-
-        <article class="publication">
-          <div class="pub-year">2025</div>
-          <div class="pub-body">
-            <h3>Another Research Paper Title</h3>
-            <p class="authors">Co-author One, <strong>Your Name</strong>, Co-author Two</p>
-            <p class="venue"><em>Journal / Conference Name</em>, 2025.</p>
-            <p class="pub-links">
-              <a href="#">PDF</a>
-              <a href="#">Code</a>
-              <a href="#">BibTeX</a>
-            </p>
-            <p class="abstract">Briefly summarize the contribution and why the work matters.</p>
-          </div>
-        </article>
-      </section>
-
-      <section id="projects" class="section">
-        <h2>Research Projects</h2>
-        <article class="project">
-          <h3>Multi-Granularity Generation Trajectory Representation for AI-Generated Image Quality Assessment</h3>
-          <p class="project-meta">AI-Generated Image Quality Assessment · [Year–Present]</p>
-          <p>
-            This project investigates how generation trajectory information and prompt-guided
-            object-level representations can support the quality assessment of AI-generated images.
-          </p>
-          <p class="pub-links"><a href="#">Paper</a><a href="#">Code</a><a href="#">Project Details</a></p>
-        </article>
-        <article class="project">
-          <h3>[Project Title]</h3>
-          <p class="project-meta">[Research Area] · [Year]</p>
-          <p>Add a short overview of the research objective, your role, and the main outcome.</p>
-          <p class="pub-links"><a href="#">Code</a><a href="#">Demo</a></p>
-        </article>
-      </section>
-
-      <section id="experience" class="section">
-        <h2>Education & Experience</h2>
-        <div class="timeline-item">
-          <div class="timeline-date">[Year–Present]</div>
-          <div><h3>Degree / Position</h3><p>Department, University or Institution</p><p class="muted">Advisor: Professor Name (optional)</p></div>
+    <!-- 教育经历 -->
+    <section>
+        <h2>教育经历</h2>
+        <div class="item">
+            <span class="time">2023.09 – 至今</span>
+            <div>
+                <strong>XX大学</strong>
+                <p>计算机科学与技术 · 博士研究生</p>
+            </div>
         </div>
-        <div class="timeline-item">
-          <div class="timeline-date">[Year–Year]</div>
-          <div><h3>Previous Degree / Position</h3><p>Department, University or Institution</p></div>
+
+        <div class="item">
+            <span class="time">2020.09 – 2023.06</span>
+            <div>
+                <strong>XX大学</strong>
+                <p>计算机技术 · 硕士</p>
+            </div>
         </div>
-      </section>
 
-      <section id="awards" class="section">
-        <h2>Honors & Awards</h2>
-        <ul class="simple-list">
-          <li><span class="date">[Year]</span> — [Award / Scholarship], [Organization].</li>
-          <li><span class="date">[Year]</span> — [Competition / Academic Award].</li>
-        </ul>
-      </section>
+        <div class="item">
+            <span class="time">2016.09 – 2020.06</span>
+            <div>
+                <strong>XX大学</strong>
+                <p>计算机科学与技术 · 学士</p>
+            </div>
+        </div>
+    </section>
 
-      <section id="contact" class="section">
-        <h2>Contact</h2>
-        <p>I welcome academic discussions and potential research collaborations.</p>
-        <p><strong>Email:</strong> <a href="mailto:your.email@example.com">your.email@example.com</a></p>
-        <p><strong>Address:</strong> [Department, University, City, Country]</p>
-      </section>
+    <!-- 学术成果 -->
+    <section>
+        <h2>代表性学术成果</h2>
 
-      <footer class="footer">
-        <p>© <span id="year"></span> Your Name. Powered by GitHub Pages.</p>
-        <p class="footer-small">The content of this website is for academic and informational purposes.</p>
-      </footer>
-    </main>
-  </div>
-  <script src="assets/js/main.js"></script>
+        <ol class="publications">
+
+            <li>
+                <strong>
+                    A Novel Framework for Image Quality Assessment
+                </strong>
+                <p>
+                    Ming Zhang, Author B, Author C.
+                    <em>IEEE Transactions on Image Processing</em>, 2026.
+                </p>
+                <div class="paper-links">
+                    <a href="#">[PDF]</a>
+                    <a href="#">[Code]</a>
+                    <a href="#">[DOI]</a>
+                </div>
+            </li>
+
+            <li>
+                <strong>
+                    Multimodal Representation Learning for Visual Quality Assessment
+                </strong>
+                <p>
+                    Author A, Ming Zhang, Author C.
+                    <em>IEEE Transactions on Multimedia</em>, 2025.
+                </p>
+                <div class="paper-links">
+                    <a href="#">[PDF]</a>
+                    <a href="#">[Code]</a>
+                </div>
+            </li>
+
+            <li>
+                <strong>
+                    Deep Learning Based No-Reference Image Quality Prediction
+                </strong>
+                <p>
+                    Ming Zhang, Author B.
+                    <em>International Conference on Computer Vision</em>, 2024.
+                </p>
+                <div class="paper-links">
+                    <a href="#">[PDF]</a>
+                    <a href="#">[Code]</a>
+                </div>
+            </li>
+
+        </ol>
+    </section>
+
+    <!-- 联系方式 -->
+    <section>
+        <h2>联系方式</h2>
+        <p>Email：example@university.edu.cn</p>
+        <p>地址：XX大学计算机科学与技术学院</p>
+    </section>
+
+    <footer>
+        <p>Copyright © 2026 Ming Zhang. All Rights Reserved.</p>
+    </footer>
+
+</div>
 </body>
 </html>
